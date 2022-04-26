@@ -1,0 +1,85 @@
+.top-menu {
+    position: relative; 
+    background: rgb(224, 213, 213);
+    box-shadow: inset 0 0 10px #ccc;
+    position: sticky;
+    top: 0;
+  }
+  .top-menu:before,
+  .top-menu:after {
+    content: "";
+    display: block;
+    height: 1px;
+    border-top: 3px solid #68635f;
+    border-bottom: 1px solid #64605d;
+    margin-bottom: 2px;
+  }
+  .top-menu:after {
+    border-bottom: 3px solid #494543;
+    border-top: 1px solid #635e5a;
+    box-shadow: 0 2px 7px rgb(207, 203, 203);
+    margin-top: 2px;
+  }
+  .menu-main {
+    list-style: none;
+    padding: 0 30px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+  }
+  .menu-main:before,
+  .menu-main:after {
+    content: "\25C8";
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .menu-main:before {left: 15px;}
+  .menu-main:after {right: 15px;}
+  .menu-main li {
+    display: inline-block;
+    padding: 5px 0;
+  }
+  .menu-main a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 5px;
+    padding: 6px 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #7c7878;
+    border-bottom: 1px solid transparent;
+    transition: .3s linear;
+  }
+  .menu-main .current, .menu-main a:hover {
+    border-radius: 3px;
+    background: #f0e4d2;
+    color: #333131;
+    text-shadow: 0 1px 0 rgb(250, 245, 245);
+    border-color: #cecccc;
+}
+
+.block{
+    display: block;
+}
+
+body{
+    background-color: rgb(224, 230, 230);
+    font-size: 16px;
+    color: darkslategray;
+    font-family: "Nunito" , sans-serif;
+}
+
+.right{
+text-align: center;
+}
+
+.ziro{
+    width: 0px;
+}
+
+.table{
+    margin-left: 830px;
+}
